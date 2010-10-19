@@ -1,0 +1,61 @@
+<div id="contact-form">
+
+<h2>Kontakt</h2>
+
+<form action="javascript:void(0);" id="contactForm" method="POST">
+<input type="hidden" name="formName" value="contactForm" />
+
+<p>Haben Sie eine konkrete Projektanfrage oder benötigen Sie
+weitere Informationen? Dann schreiben Sie mir doch einfach eine
+Nachricht. Ich werde mich umgehend bei Ihnen melden.</p>
+
+<p class="error">Eines oder mehrere Formularfelder enthalten nicht
+erlaubte Zeichen. Bitte korrigieren Sie Ihre Eingaben.</p>
+
+<fieldset><legend>allgemeine Angaben</legend> <label
+	for="titel">Anrede*</label> <select name="title" class="required">
+	<option value="female">Frau</option>
+	<option value="male">Herr</option>
+</select> <br />
+<label for="name">Name*</label> <input type="text" name="name" value=""
+	class="required" /> <br />
+<label for="phone">Telefon</label> <input type="text" name="phone"
+	value="" /> <br />
+<label for="email">Email-Adresse*</label> <input type="text"
+	name="email" value="" class="required" /> <br />
+
+</fieldset>
+
+<fieldset><legend>Ihre Frage*</legend> <textarea
+	name="question" accesskey="f" rows="10" style="width: 99%;"
+	class="required"></textarea></fieldset>
+
+<input type="reset" value="Felder leeren" /> <input type="submit"
+	value="Anfrage senden" /></form>
+
+<hr />
+
+<p>* = erforderliche Angaben</p>
+
+</div>
+
+<div id="contact-thanks">
+
+<h2>Kontakt</h2>
+
+<p>Vielen Dank für Ihre Nachricht. Ich werde mich umgehend bei
+Ihnen melden, um mit Ihnen Ihr Anliegen besprechen zu können.</p>
+
+</div>
+
+<div id="contact-error">
+
+<h2>Kontakt</h2>
+
+<p>Beim versenden der Email ist leider ein Fehler aufgetreten. Bitte
+versuchen Sie es zu einem späteren Zeitpunkt nocheinmal. In dringenden
+F&auml;llen haben Sie auch die Möglichkeit mich unter der <a
+	href="impress" title="Impressum">hier</a> genannten Telefonnummer zu
+erreichen.</p>
+
+</div>

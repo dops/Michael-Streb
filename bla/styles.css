@@ -1,0 +1,191 @@
+html {
+	height: 100%;
+	font-family: arial, verdana, helvetica, sans-serif;
+	color: #aaa;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #103662 url(images/body-bg.png) repeat-x fixed 0 20%;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #555;
+}
+
+content,content>* {
+	width: 100%;
+}
+
+fieldset {
+	margin-bottom: 10px;
+	border-width: 0;
+	border-top: 1px solid #ddd;
+}
+
+form {
+	width: 100%;
+}
+
+img {
+	border-width: 0;
+	vertical-align: middle;
+}
+
+label {
+	display: inline-block;
+	width: 300px;
+}
+
+legend {
+	display: block;
+	float: right;
+}
+
+li>a {
+	display: block;
+	padding: 0 20px 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* standard styles */
+.error {
+	border: #f00 solid 1px;
+	color: #f00;
+}
+
+p.error {
+	display: none;
+	padding: 3px 6px;
+	background: transparent url(images/red-transp03.png);
+}
+
+.clear-block {
+	clear: both;
+}
+
+/**/
+#header-margins {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 0 8px 0;
+	width: 100%;
+	height: 140px;
+	background: transparent url(images/header-bg.png) repeat-x;
+	z-index: 50;
+}
+
+#header-blue-bar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 115px;
+	background: url(images/header-blue-bar.png) repeat-x;
+}
+
+#logo {
+	position: absolute;
+}
+
+#main-margins {
+	margin: auto;
+	width: 851px;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	color: #222222;
+	background: transparent url(images/transp07.png);
+	z-index: 999;
+}
+
+#footer-margins {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 8px 0 0 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background: transparent url(images/footer-bg.png) repeat-x;
+	z-index: 50;
+}
+
+#header {
+	position: relative;
+	padding: 0;
+	height: 140px;
+}
+
+#header ul {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	height: 25px;
+}
+
+#header li {
+	float: left;
+	padding: 0;
+	height: 100%;
+	list-style-type: none;
+}
+
+#main {
+	margin: auto;
+	width: 831px;
+	padding: 148px 10px 60px 10px;
+}
+
+#loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: auto !important;
+	width: 100%;
+	min-width: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	background: #000;
+	z-index: 999;
+	display: none;
+	opacity: .5;
+	color: #fff;
+}
+
+#loader img {
+	position: relative;
+	top: -50%;
+	left: -24px;
+	margin-top: 50%;
+	margin-left: 50%;
+}
+
+#header,#footer {
+	margin: auto;
+	width: 851px;
+}
+
+#content img {
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #222222;
+	background: #dddddd;
+}
+
+#reference {
+	clear: both;
+}
+
+input,select,textarea {
+	margin: 2px;
+	border: solid #dddddd 1px;
+}
