@@ -8,3 +8,5 @@ if (file_exists('ajax/' . $query[0] . '.inc.php')) {
 		echo json_encode($response);
 	}
 }
+
+?>
